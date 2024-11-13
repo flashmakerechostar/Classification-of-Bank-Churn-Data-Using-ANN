@@ -6,7 +6,7 @@ import pickle
 import streamlit as st
 
 # load saved model
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('model.keras')
 
 # load the pickle files
 
